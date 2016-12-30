@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "501411648081",
+    "firebase_url": "https://icbluelight-1bb22.firebaseio.com",
+    "project_id": "icbluelight-1bb22",
+    "storage_bucket": "icbluelight-1bb22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501411648081:android:5308afb07e56aab1",
+        "android_client_info": {
+          "package_name": "me.jimmywang.icbluelight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501411648081-bec3u3nm3e4u1n1ipcdp63smcf8mjucf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHlDpBbYycXJZI9q-5G0j1asJXktrESeM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

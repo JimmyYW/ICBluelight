@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IC Blue Light</string>
+    <string name="logInTitle">Log In</string>
+    <string name="enterNamePrompt">Please enter your name and select a role</string>
+    <string name="welcome">Please select a role</string>
+    <string name="student">Student</string>
+    <string name="stuff">Stuff</string>
+    <string name="imsafe">I am Safe Now</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="studentMainTitle">Need Help?</string>
+    <string name="requestForHelp">Request For Help</string>
+    <string name="getHelpNow">Get Help Now!</string>
+    <string name="additionMessageHit">(Optional) Please provide a message if you are requesting a non-emergency help. (Safety Escorts or Vehicle Assistance)</string>
+    <string name="detailLocation">(Optional) If you are inside a build please provide detailed location! (Room Numbers and Floor)</string>
+    <string name="helpontheway">Hold On! Help Is On The Way!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

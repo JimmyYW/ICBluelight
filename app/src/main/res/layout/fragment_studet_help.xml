@@ -1,0 +1,79 @@
+<android.support.v7.widget.CardView android:id="@+id/card_view"
+    android:layout_margin="20sp"
+    android:layout_gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey_300"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <Button
+        android:layout_marginBottom="60sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:text="@string/getHelpNow"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/red_600"
+        android:id="@+id/helpNow" />
+
+    <ImageView
+        android:layout_width="235dp"
+        android:layout_height="260dp"
+        app:srcCompat="@drawable/icbluelight_redy2"
+        android:layout_gravity="center"
+        android:layout_marginTop="150sp"
+        android:alpha="0.3"
+        android:id="@+id/imageView3" />
+
+    <LinearLayout
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/detailLocation"
+            android:layout_margin="10sp"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+        <EditText
+            android:layout_margin="10sp"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Location"
+            android:ems="10"
+            android:id="@+id/editText" />
+
+        <TextView
+            android:layout_margin="10sp"
+            android:textSize="25sp"
+            android:text="@string/additionMessageHit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+
+        <EditText
+            android:layout_margin="10sp"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Message"
+            android:ems="10"
+            android:id="@+id/editText2" />
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

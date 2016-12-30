@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Your Name"
+        android:key="username"
+        android:summary="Please provide your username"/>
+    <CheckBoxPreference android:title="Show My Location"
+        android:defaultValue="true"
+        android:summary="This option only affects staff mode."
+        android:key="ShowMyLocation" />
+    <ListPreference     android:title="Theme Color"
+        android:summary="Select Theme Color"
+        android:key="ThemeColor"
+        android:defaultValue="Red"
+        android:entries="@array/listArrayColor"
+        android:entryValues="@array/listValuesColor" />
+    <ListPreference     android:title="Marker Color"
+        android:summary="Select Marker Color. This option only affects staff mode."
+        android:key="MarkerColor"
+        android:defaultValue="Red"
+        android:entries="@array/listArrayMarker"
+        android:entryValues="@array/listValuesMarker" />
+
+</PreferenceScreen>
